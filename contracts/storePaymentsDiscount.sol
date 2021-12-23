@@ -3,17 +3,17 @@ pragma solidity >=0.4.22 < 0.9.0;
 
 contract storePaymentsDiscount {
     struct InfoPayment {
-        address idwallet;
-        uint discount;
-        bool exists;
+        address idwallet; //Used for mapping 
+        uint discount; //Balance of the account
+        bool exists; //Boolean value used to check if payment struct already exists
     }
 
     mapping(address => InfoPayment) public payments;
     InfoPayment[] paymentArray;
 
     constructor() {
-        addPayment(1, 0x5B5922E8BbcE08B19D15005a899A4E330096C940);
-        addPayment(2, 0x6262D676b040E8dc2989dE00B3ad4D60A9eF07d0);
+        addPayment(1, 0x4f1Ce7d8C5083894CbA7cB95E03BDc0d7D9E38c8);
+        addPayment(2, 0xBA715bB17Ec6f74fD84E8090194CAbF59E2C336b);
     }
     
     uint public paymentsCount;

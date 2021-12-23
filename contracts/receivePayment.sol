@@ -39,6 +39,9 @@ contract receivePayment {
 
     Existing(_t);
     uint _balance = sPD.checkBalance(msg.sender);
+    if(_balance == 0){
+      revert("Balance empty");
+    }
     if((_price - _balance) >= 0){ //Check that the balance is enough
       //uint _newPrice = _price - _balance;
       sPD.setBalance(msg.sender, 0); //Set the balance to 0
