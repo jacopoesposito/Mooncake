@@ -40,7 +40,7 @@ async function getAccount() { //Connecting to MetaMask
 }
 
 function pay() { //Emit a transaction to the contract Receive Payment while calling the method receivePay
-    contractRP.methods.receivePay(10, storePaymentA).send({from: account, value: web3.utils.toWei("10")}).then(
+    contractRP.methods.receivePay(10, storePaymentA).send({from: account, value: web3.utils.toWei("10"), gas:300000}).then(
         (result) => {
             alert(result);
         }
