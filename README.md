@@ -24,7 +24,7 @@ $ truffle init
 ```
 * Open the file contracts/storePaymentsDiscount.sol and replace the two public addresses, contained in the addPaymentDiscount() function call inside the storePaymentsDiscount() constructor, with those of two existing accounts in Ganache.
 
-* Bind Ganache with our truffle project and then execute the command
+* Bind Ganache with our truffle project and then execute the command, if asked remember to don't overwrite all the files.
 ```
 $ truffle migrate --reset
 ```
@@ -37,8 +37,8 @@ $ npm install
 * Run it and have fun!
 
 ## Screenshot
-[homepage.png](https://github.com/jacopoesposito/Mooncake/static/image/login.png)
-[logged.png](https://github.com/jacopoesposito/Mooncake/static/image/connesso.png)
+[homepage.png](https://github.com/jacopoesposito/Mooncake/blob/main/static/image/login.png)
+[logged.png](https://github.com/jacopoesposito/Mooncake/blob/main/static/image/connesso.png)
 
 ## License 
 [GNU/GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
