@@ -32,7 +32,7 @@ $ truffle migrate --reset
 ```
 $ npm install
 ```
-* After the installation of all the dependencies, open the file src/js/index.js and the variables containing the addresses of the two contracts, receivePaymentAddress and storePaymentA, by entering the current addresses available on Ganache in the contracts section.
+* After the installation of all the dependencies, open the file src/js/index.js and modify the variables containing the addresses of the two contracts, receivePaymentAddress and storePaymentA, by entering the current addresses available on Ganache in the contracts section.
 
 * Run it and have fun!
 
