@@ -18,13 +18,13 @@ Build with Solidity, Javascript and love :heart:
 ```
 $ git clone https://github.com/jacopoesposito/Mooncake.git
 ```
-* Move to the project's directory and run the command
+* Move to the project's directory and run the command, if asked remember to don't overwrite all the files
 ```
 $ truffle init 
 ```
 * Open the file contracts/storePaymentsDiscount.sol and replace the two public addresses, contained in the addPaymentDiscount() function call inside the storePaymentsDiscount() constructor, with those of two existing accounts in Ganache.
 
-* Bind Ganache with our truffle project and then execute the command, if asked remember to don't overwrite all the files.
+* Bind Ganache with our truffle project and then execute the command.
 ```
 $ truffle migrate --reset
 ```
