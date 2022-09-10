@@ -1,6 +1,9 @@
-<img src="https://github.com/jacopoesposito/Mooncake/blob/main/static/image/mooncake.png" width="200"/>
 # Mooncake
 ![GitHub](https://img.shields.io/github/license/jacopoesposito/mooncake?color=red&style=flat-square)
+<p align="center">
+<img src="https://github.com/jacopoesposito/Mooncake/blob/main/static/image/mooncake.png" width="200"/>
+</p>
+
 
 Mooncake is a de-centralized app based on Ethereum that implements a payment system for a general shop, made for the Computer Network Exam project at the University of Naples "Parthenope".
 
