@@ -1,3 +1,4 @@
+<img src="https://github.com/jacopoesposito/Mooncake/blob/main/static/image/mooncake.png" width="200"/>
 # Mooncake
 ![GitHub](https://img.shields.io/github/license/jacopoesposito/mooncake?color=red&style=flat-square)
 
